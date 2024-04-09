@@ -230,10 +230,19 @@ main article:nth-child(2) figure:nth-child(3) {
         margin: 0 auto;
     }
 
+    main article:nth-child(2) {
+        margin-top: 0px;
+    }
+
     main article:nth-child(2) figure {
         position: relative;
         align-self: center;
         width: 80%;
+    }
+
+    main article:nth-child(2) figure:nth-child(2),
+    main article:nth-child(2) figure:nth-child(3) {
+        margin-top: 0px;
     }
 }
 
