@@ -241,16 +241,39 @@ main article:nth-child(2) figure:nth-child(3) {
 @media screen and (max-width: 576px) {
     main article:nth-child(1) figure:nth-child(1) {
         margin-top: 170px;
-        width: 100%;
+    }
+
+    /* Putting relative on main rated container to allow resize */
+    main article:nth-child(1) figure:nth-child(2) {
+        position: relative;
+        width: 90%;
+    }
+
+    /* Align to center each rated child container */
+    main article:nth-child(1) figure:nth-child(2) > div:nth-child(1) {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     main article:nth-child(1) figure:nth-child(2) > div:nth-child(2) {
         margin-left: 0px;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     
-    main article figure:nth-child(2) > div:nth-child(3) {
+    main article:nth-child(1) figure:nth-child(2) > div:nth-child(3) {
         margin-left: 0px;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main article:nth-child(2) {
+        gap: 0px;
+    }
+
+    main article:nth-child(2) figure:nth-child(3) {
+        margin-top: 20px;
     }
 }
