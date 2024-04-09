@@ -208,6 +208,17 @@ main article:nth-child(2) figure:nth-child(3) {
         align-items: center;
     }
 
+    main article:nth-child(1) {
+        width: 100%;
+    }
+
+    main article:nth-child(1) figure:nth-child(1) {
+        position: relative;
+        align-self: center;
+        width: 50%;
+        text-align: center;
+    }
+
     main article:nth-child(2) figure {
         position: relative;
         align-self: center;
