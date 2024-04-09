@@ -185,3 +185,32 @@ main article:nth-child(2) figure:nth-child(3) {
         font-size: 0.8em;
     }
 }
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    body {
+        background: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+        background-position: left 0vw top 0vh, right 0vw bottom 0vh;
+        background-repeat: no-repeat, no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    main article {
+        flex-direction: column;
+        margin-top: 350px;
+        margin-bottom: 50px;
+        width: 100%;
+        align-items: center;
+    }
+
+    main article:nth-child(2) figure {
+        position: relative;
+        align-self: center;
+        width: 80%;
+    }
+}
