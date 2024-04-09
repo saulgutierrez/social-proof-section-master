@@ -164,7 +164,7 @@ main article:nth-child(2) figure:nth-child(3) {
 }
 
 /* Laptops */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     main article:nth-child(1) figure:nth-child(1) h1 {
         font-size: 2.7rem;
     }
