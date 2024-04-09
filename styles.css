@@ -215,7 +215,7 @@ main article:nth-child(2) figure:nth-child(3) {
     main article:nth-child(1) figure:nth-child(1) {
         position: relative;
         align-self: center;
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
 
