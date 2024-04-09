@@ -214,9 +214,21 @@ main article:nth-child(2) figure:nth-child(3) {
 
     main article:nth-child(1) figure:nth-child(1) {
         position: relative;
-        align-self: center;
+        width: 100%;
+    }
+
+    main article:nth-child(1) figure:nth-child(1) h1,
+    main article:nth-child(1) figure:nth-child(1) p {  
         width: 100%;
         text-align: center;
+        padding: 0px 40px;
+    }
+
+    main article:nth-child(1) figure:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
     }
 
     main article:nth-child(2) figure {
